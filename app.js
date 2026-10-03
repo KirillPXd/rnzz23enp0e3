@@ -1,6 +1,6 @@
 /* Gen Diary — школьный дневник.
    Всё хранится только на этом устройстве (localStorage), сеть не нужна. */
-import { html, render, useState, useEffect, useRef } from './vendor/preact-htm.js';
+import { html, render, useState, useEffect, useRef } from './preact-htm.js';
 import { G_PATH, G_VB, G_W, G_H } from './logo.js';
 
 /* ================= константы ================= */

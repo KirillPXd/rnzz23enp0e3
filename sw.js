@@ -1,5 +1,5 @@
 /* Gen Diary — офлайн-кэш. Сначала отдаём из кэша, в фоне обновляем. */
-const CACHE = 'gendiary-v1';
+const CACHE = 'gendiary-v2';
 const ASSETS = [
   './',
   'index.html',
@@ -8,23 +8,23 @@ const ASSETS = [
   'logo.js',
   'fonts.css',
   'manifest.webmanifest',
-  'vendor/preact-htm.js',
-  'icons/apple-touch-icon.png',
-  'icons/icon-192.png',
-  'icons/icon-512.png',
-  'icons/icon-maskable-512.png',
-  'icons/favicon-32.png',
-  'icons/favicon-64.png',
-  'fonts/montserrat-cyrillic-700-normal.woff2',
-  'fonts/montserrat-latin-700-normal.woff2',
-  'fonts/montserrat-cyrillic-800-italic.woff2',
-  'fonts/montserrat-latin-800-italic.woff2',
-  'fonts/onest-cyrillic-400-normal.woff2',
-  'fonts/onest-latin-400-normal.woff2',
-  'fonts/onest-cyrillic-500-normal.woff2',
-  'fonts/onest-latin-500-normal.woff2',
-  'fonts/onest-cyrillic-600-normal.woff2',
-  'fonts/onest-latin-600-normal.woff2'
+  'preact-htm.js',
+  'apple-touch-icon.png',
+  'icon-192.png',
+  'icon-512.png',
+  'icon-maskable-512.png',
+  'favicon-32.png',
+  'favicon-64.png',
+  'montserrat-cyrillic-700-normal.woff2',
+  'montserrat-latin-700-normal.woff2',
+  'montserrat-cyrillic-800-italic.woff2',
+  'montserrat-latin-800-italic.woff2',
+  'onest-cyrillic-400-normal.woff2',
+  'onest-latin-400-normal.woff2',
+  'onest-cyrillic-500-normal.woff2',
+  'onest-latin-500-normal.woff2',
+  'onest-cyrillic-600-normal.woff2',
+  'onest-latin-600-normal.woff2'
 ];
 
 self.addEventListener('install', (e) => {
